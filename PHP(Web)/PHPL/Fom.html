@@ -1,0 +1,77 @@
+<html>
+<head>
+  <link rel="stylesheet" href="f12.css">
+</head>
+<style>input[type=checkbox] {
+  accent-color:black;
+}
+input[type=radio] {
+  accent-color: black;
+}
+h2 {
+  text-align:center;
+  border: 3px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    background-color: blueviolet;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+} 
+
+</style>
+<body>
+  <u><h2><b>Form</b></h2></u>
+    <form>
+  <div class="wrapperDiv" style="border:5px solid rgb(6, 6, 6); padding:70px; font-size:20px">
+    <p class="h1">Choose your Hobby:</p>
+  <input type="checkbox" name="h1" value="Sports">
+  <label for="vehicle1" class="container">Sports</label><br>
+  <input type="checkbox" name="h2" value="Travelling">
+  <label for="vehicle2" class="container">Travelling</label><br>
+  <input type="checkbox" name="h3" value="Cars" checked>
+  <label for="vehicle3" class="container">Cars</label><br>    
+  
+  
+  <p class="h1">Gender:</p>
+  <input type="radio"  name="Gender" value="Male" checked="checked">
+  <label for="Male" class="container">Male</label><br>
+  <input type="radio"  name="Gender" value="Female" >
+  <label for="Female" class="container">Female</label><br>
+  <input type="radio"  name="Gender" value="Other">
+  <label for="Other" class="container">other</label><br><br>
+
+  <label for="Email" class="h2">Email:</label>
+  <input type="text"  name="Email"><br><br>
+
+  <label for="Age" class="h2">Age:</label>
+  <input type="text"  name="Age"><br><br>
+
+  <label for="DOB" class="h2">DOB:</label>
+  <input type="date"  name="DOB"><br><br>
+
+  <label for="Password" class="h2">Password:</label>
+  <input type="Password"  name="Password"><br><br>
+
+  <label for="cars" class="h2">Choose a car:</label>
+  <select name="cars" id="cars" class="h3">
+    <option value="M" class="h3">Mustang-1969</option>
+    <option value="R" class="h3">Rolls Royce</option>
+    <option value="F" class="h3">Ferrari</option>
+    <option value="S" class="h3">S-class</option>
+  </select><br><br>
+
+  <div>
+  <label for="myfile" class="h2">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  </div>
+
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+  </div>
+
+    </form> 
+
+</body>
+</html>
