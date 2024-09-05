@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left-width: 20px;
+      }
+</style>
+<body style="font-family: Arial" >
+    <h2 style="text-align: center;"><u>Registration Form</u></h2>
+    <form>
+    <div class="wrapperDiv" style="border:5px solid rgb(6, 6, 6); padding:70px; font-size:20px">
+        <label>First Name:</label>
+        <input type="text" id="firstname" name="firstname"/><br><br>
+        <label>Last Name:</label>
+        <input type="text" id="lastname" name="lastname"/><br><br>
+
+        <label>Enter Your address:</label>
+        <input type="textarea" id="address" name="address"/><br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" name="email"/><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password" name="password"/><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio"  name="Gender" value="Male" checked="checked">
+        <label for="Male">Male</label>
+        <input type="radio"  name="Gender" value="Female">
+        <label for="Female">Female</label><br><br>
+
+
+        <label>Hobby:</label>
+        <input type="checkbox" name="h1" value="Cricket">
+        <label for="hobby1">Cricket</label>
+        <input type="checkbox" name="h2" value="Football">
+        <label for="vehicle2">Football</label>
+        <input type="checkbox" name="h3" value="Hockey" checked>
+        <label for="vehicle3">Hockey</label><br><br>
+
+
+        <label for="cars" class="h2">City:</label>
+        <select name="cars" id="cars" class="h3">
+        <option value="0">--select city--</option>
+        <option value="1">Baroda</option>
+        <option value="2">Kashi</option>
+        <option value="3">Triput</option>
+        </select><br><br>
+
+
+        <label for="myfile" class="h2">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+
+        <input type="submit" value="Submit Query">
+        <input type="submit" value="cancel">
+    </div>
+</form> 
+</body>
+</html>
